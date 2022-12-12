@@ -1,0 +1,381 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    padding: 0 100px;
+    /* display: flex; */
+    height: 75px;
+/* margin-top: 40px; */
+background-color: violet;
+
+}
+
+
+ section{
+   width: 100%;
+   height: 75px;
+   line-height: 75px;
+   padding: 0 100px;
+   position: fixed;
+   
+
+}
+
+section .section-left h2{
+   align-items: center;
+font-size: 30px;
+font-weight: bold;
+float: left;
+color: rgba(157, 16, 208, 0.569);
+cursor: pointer;
+text-transform: uppercase;
+letter-spacing: 1.5px; 
+}
+
+.section-ul{
+    float: right;
+
+}
+.section-ul li{
+    display: inline-block;
+    justify-content: center;
+    list-style: none;
+
+}
+section li a{
+    font-size: 18px;
+    padding: 0 30px;
+    text-decoration: none;
+
+}
+section li a:hover{
+    color: chartreuse;
+    transform: all 0.4s ease 0%;
+} 
+
+header{
+   align-items: center;
+
+}
+
+.header-1 {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    
+
+    
+
+}
+.header-1 .deltail{
+align-items: center;
+justify-content: center;
+padding: 30px 70px;
+
+}
+
+ img{
+    margin-left: 100px;
+font-size: 80px;
+width: 500px;
+height: 500px;
+    margin-top: 30px;
+}
+.hire h2{
+    
+    display: inline-block;
+    padding: 0 5px;
+}
+/* .hire .me .get{
+    text-decoration: none;
+} */
+.hire .me .get a{
+    text-decoration: none;
+}
+.me{
+    border-radius: 10px;
+    border: 3px solid #1a10a6;
+    background-color: rgb(155, 188, 188);
+}
+
+
+.get{
+    border-radius: 10px;
+    border: 3px solid #1a10a6;
+    background-color: rgb(155, 188, 188);
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa-twitter {
+    background: #0de0d94d;
+    color: white;
+    border: 6px rgba(114, 125, 250, 0.398);
+    border-radius: 5px;
+   
+  }
+  
+  .fa-google {
+    background: #52dd39;
+    color: white;
+    border: 6px salmon;
+    border-radius: 5px;
+
+  }
+  
+  .fa-linkedin {
+    background: #0c82b8;
+    color: white;
+    border: 6px salmon;
+    border-radius: 5px;
+  }
+
+
+.about-1 h2{
+    text-align: center;
+    color: cornflowerblue;
+
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10 20px;
+}
+.about-1{
+    background: rgba(190, 80, 120);
+    margin-top: 30px;
+    /* background-color: lightpink;
+    border: #1a10a6;
+    border-radius:  10px ; */
+}
+.point h3{
+    font-size: 40px;
+    margin: 0 5px;
+}
+.point {
+width: 600px;
+padding: 0 60px;
+margin-top: 130px;
+font-size: 20px;
+
+}
+.point p{
+    width: 600;
+    font-size: 30px;
+}
+
+
+/* .skill-2 video{
+    width: 500px;
+    height: 500px;
+    /* padding: 0 60px; 
+   padding: 60px 40px;
+} */
+
+
+
+.skill-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.skill-1 h2{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.skill-1
+    .container {
+        width: 100%;
+        background-color: rgb(17, 17, 146);
+        border: 4px solid rgb(234, 244, 243);
+        border-radius: 8px ;
+      }
+      
+      .skills {
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: rgba(109, 225, 8, 0.695);
+      }
+      .skills {
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: rgba(109, 225, 8, 0.695);
+      }
+      
+      
+      .html {width: 90%; background-color: #9e1246;}
+      .css {width: 80%; background-color: #2196F3;}
+      .js {width: 65%; background-color: #3656f4;}
+      .sql {width: 80%; background-color: #231ec98a;}
+      
+      .C Program {width: 70%; background-color: #c9a41e8a;}
+
+      
+
+
+
+ .skill-range{
+width: 50%;
+padding:0 100px;
+margin-top: 50px;
+}
+
+/* PROJECT */
+.portfolio h1{
+    text-align: center;
+    color: rgb(11, 77, 200);
+}
+
+
+
+.ul li {
+    display: inline;
+    padding: 0 20px;
+    color: black;
+    font-size: 20px;
+    
+
+}
+
+ .column {
+     
+    float: left;
+    width: 50%;
+    padding:  0 10px;
+    text-align: center;
+  } 
+
+  .column img {
+    margin-top: 10px;
+    padding:10px 20px;
+    width: 100%;
+    text-align: center;
+
+  }
+  img{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+
+
+  /* contact */
+  .contact{
+    background-color: rgb(200, 182, 17);
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact .title::after{
+    content: "get in touch";
+    color: #9e1246;
+}
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: rgba(11, 11, 133, 0.559);
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: rgb(183, 13, 13);
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .button-area{
+  display: flex;
+  align-items: center;
+}
+.right form .button-area button{
+  color: #fff;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: rgb(20, 53, 220);
+  border: 2px solid rgb(67, 20, 220);
+  transition: all 0.3s ease;
+}
+.right form .button-area button:hover{
+  color: rgb(57, 220, 20);
+  background: none;
+}
